@@ -65,6 +65,12 @@ nav {
     padding: 0 1rem;
     display: none;
 }
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
