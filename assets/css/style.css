@@ -101,7 +101,24 @@ footer {
     #menu {
         display: flex;
     }
-    #menu . li {
+    #menu > li {
         padding-left: 1rem;
     }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main content */
+    / * push main content downn to accomadate larger header */
+    main {
+        margin-top: 79px;
+    }
 }
+
+@media screen and (min-width: 992px) {
+    #menu > a:hover {
+        text-underline-offset: ;
