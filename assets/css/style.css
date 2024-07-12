@@ -99,7 +99,7 @@ footer {
     color: #3a3a3a;
 }
 }
-/* Media query: tablets and larger (768px and up)*/
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -124,7 +124,7 @@ footer {
         margin: 0 0.5rem;
     }
     /* Main content */
-    / * push main content downn to accomadate larger header */
+    /* push main content downn to accomadate larger header */
     main {
         margin-top: 79px;
     }
