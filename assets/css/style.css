@@ -175,6 +175,17 @@ main {
     color: #fafafa;
 }
 
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    /* allows alt text to be seen */
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 footer {
 #social-networks {
